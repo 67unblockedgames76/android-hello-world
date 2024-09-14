@@ -1,4 +1,4 @@
-package com.example.agenttracker;
+package com.sqisland.android.hello;
 
 public class LocationData {
     public double latitude;
