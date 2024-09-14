@@ -1,6 +1,5 @@
 <manifest
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sqisland.android.hello">
+    xmlns:android="http://schemas.android.com/apk/res/android">
   <application
       android:label="@string/app_name">
     <activity
