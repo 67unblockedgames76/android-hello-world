@@ -1,7 +1,5 @@
 package com.sqisland.android.hello;
 
-package com.example.agenttracker;
-
 import android.Manifest;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
