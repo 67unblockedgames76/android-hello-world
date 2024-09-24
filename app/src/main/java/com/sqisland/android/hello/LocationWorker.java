@@ -17,7 +17,7 @@ import java.io.IOException;
 public class LocationWorker extends Worker {
 
     private static final String TAG = "LocationWorker";
-    private static final String CLOUD_WORKER_URL = "https://your-cloudflare-worker-url.com"; // Replace with your Cloudflare Worker URL
+    private static final String CLOUD_WORKER_URL = "https://gps-tracking-open-street-map.boysofts.workers.dev/"; // Replace with your Cloudflare Worker URL
 
     public LocationWorker(@NonNull Context context, @NonNull WorkerParameters workerParams) {
         super(context, workerParams);
