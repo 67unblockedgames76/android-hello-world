@@ -10,6 +10,8 @@
         <category android:name="android.intent.category.LAUNCHER"/>
       </intent-filter>
     </activity>
+    <!-- Ensure this works in background -->
+    <service android:name=".LocationWorker" android:permission="android.permission.BIND_JOB_SERVICE"/>
   </application>
 
   <!-- Add location permissions -->
